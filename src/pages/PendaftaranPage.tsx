@@ -99,7 +99,7 @@ const PendaftaranPage = () => {
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="bg-amber-brand/10 rounded-xl p-5 border border-amber-brand/20">
                 <p className="font-semibold text-brown-dark">👕 Batas Pemesanan Kaos</p>
-                <p className="text-lg font-bold text-amber-brand mt-1">Rabu, 17 Maret 2026</p>
+                <p className="text-lg font-bold text-amber-brand mt-1">Rabu, 18 Maret 2026</p>
                 <p className="text-xs text-muted-foreground mt-1">
                   Cotton Combed 24s — Rp65.000 😍
                 </p>
