@@ -1,6 +1,6 @@
-import heroImage from "@/assets/hero-youth-service.jpg";
+import heroImage from "@/assets/foto-gyd.jpg";
+import topLogo from "@/assets/logo-putih.png";
 import logoFlame from "@/assets/logo-flame-book.png";
-import straghtLogos from "@/assets/logo-putih.png";
 import CountdownTimer from "./CountdownTimer";
 
 const HeroSection = () => {
@@ -18,17 +18,18 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 py-20 max-w-4xl mx-auto">
-        <img
-          src={straghtLogos}
-          alt="Serangkaian Logo"
-          className="h-10 sm:h-14 md:h-16 mx-auto mb-8 object-contain"
-        />
-
-        <img
-          src={logoFlame}
-          alt="GYD Logo"
-          className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-6 invert opacity-90"
-        />
+        <div className="flex flex-col items-center gap-4 mb-6">
+          <img
+            src={topLogo}
+            alt="New Logo"
+            className="h-16 sm:h-20 object-contain opacity-90"
+          />
+          <img
+            src={logoFlame}
+            alt="GYD Logo"
+            className="w-24 h-24 sm:w-32 sm:h-32 object-contain invert opacity-90"
+          />
+        </div>
 
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl text-primary-foreground leading-tight mb-2">
           communion

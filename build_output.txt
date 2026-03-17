@@ -1,0 +1,18 @@
+
+> vite_react_shadcn_ts@0.0.0 build
+> vite build
+
+[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+transforming...
+Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[32m✓[39m 1703 modules transformed.
+[31mx[39m Build failed in 3.08s
+[31merror during build:
+[31mCould not resolve "./lib/types" from "node_modules/@supabase/auth-js/dist/module/index.js"[31m
+file: [36mD:/web gyd 4/WEBSITE GYD 26/GYD 26 GACOR/communion-in-action-main/node_modules/@supabase/auth-js/dist/module/index.js[31m
+    at getRollupError (file:///D:/web%20gyd%204/WEBSITE%20GYD%2026/GYD%2026%20GACOR/communion-in-action-main/node_modules/rollup/dist/es/shared/parseAst.js:395:41)
+    at error (file:///D:/web%20gyd%204/WEBSITE%20GYD%2026/GYD%2026%20GACOR/communion-in-action-main/node_modules/rollup/dist/es/shared/parseAst.js:391:42)
+    at ModuleLoader.handleInvalidResolvedId (file:///D:/web%20gyd%204/WEBSITE%20GYD%2026/GYD%2026%20GACOR/communion-in-action-main/node_modules/rollup/dist/es/shared/node-entry.js:20006:24)
+    at file:///D:/web%20gyd%204/WEBSITE%20GYD%2026/GYD%2026%20GACOR/communion-in-action-main/node_modules/rollup/dist/es/shared/node-entry.js:19966:26[39m

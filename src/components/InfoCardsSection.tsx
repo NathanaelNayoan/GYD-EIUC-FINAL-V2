@@ -1,8 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import cardRegistration from "@/assets/card-registration.png";
-import cardPrayer from "@/assets/card-prayer.png";
-import cardCompassion from "@/assets/card-compassion.png";
+import cardRegistration from "@/assets/baju-gyd.jpeg";
+import cardPrayer from "@/assets/foto-qpr.jpg";
+import cardCompassion from "@/assets/foto-caring.jpg";
 
 const cards = [
   {

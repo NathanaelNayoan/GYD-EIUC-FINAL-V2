@@ -32,50 +32,51 @@ const CompassionPage = () => {
                 <li className="flex items-start gap-3 bg-muted rounded-lg p-3">
                   <span className="text-xl">🍎</span>
                   <div>
-                    <p className="font-semibold">Makanan</p>
-                    <p className="text-muted-foreground">Buah/kue basah/kue kering — prioritas kepada pekerja toko atau jalanan</p>
+                    <p className="font-semibold">Makanan dan Minuman</p>
+                    <p className="text-muted-foreground">buah, kue basah/kering, dan satu air
+                      mineral — prioritas orang-orang pekerja dijalanan seperti tukang atau buruh.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3 bg-muted rounded-lg p-3">
                   <span className="text-xl">✏️</span>
                   <div>
-                    <p className="font-semibold">Stationeries</p>
-                    <p className="text-muted-foreground">Prioritas anak kecil/remaja yang membutuhkan buku, pen, atau pencil</p>
+                    <p className="font-semibold">Alat tulis-menulis</p>
+                    <p className="text-muted-foreground">buku, pensil, penghapus, mistar, dan lain-lain — prioritas anak kecil/remaja usia sekolah.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3 bg-muted rounded-lg p-3">
                   <span className="text-xl">👕</span>
                   <div>
                     <p className="font-semibold">Pakaian</p>
-                    <p className="text-muted-foreground">Prioritas jika ada homeless man/pemulung</p>
+                    <p className="text-muted-foreground">kaos, celana, jaket, dan lain-lain yang layak pakai — prioritas pemulung atau orang yang tinggal di jalan/tunawisma</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3 bg-muted rounded-lg p-3">
                   <span className="text-xl">💰</span>
                   <div>
-                    <p className="font-semibold">Money</p>
-                    <p className="text-muted-foreground">Prioritas kepada orang yang dengan bisikan roh kudus terlihat membutuhkan</p>
+                    <p className="font-semibold">Uang Tunai</p>
+                    <p className="text-muted-foreground">sesuai kerelaan hati — prioritas orang yang terlihat membutuhkan, dipandu bisikan Roh Kudus.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3 bg-muted rounded-lg p-3">
                   <span className="text-xl">🛒</span>
                   <div>
                     <p className="font-semibold">Sembako</p>
-                    <p className="text-muted-foreground">Prioritas kepada ibu-ibu di jalanan yang terlihat membutuhkan</p>
+                    <p className="text-muted-foreground">beras, gula pasir, minyak goreng, telur, tepung, dan lainlain — prioritas lansia atau ibu-ibu di jalanan</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3 bg-muted rounded-lg p-3">
                   <span className="text-xl">📖</span>
                   <div>
-                    <p className="font-semibold">Buku/Traktat</p>
-                    <p className="text-muted-foreground">Kepada semua orang yang dijumpai</p>
+                    <p className="font-semibold">Buku Roh Nubuat/traktat</p>
+                    <p className="text-muted-foreground">diberikan kepada semua orang yang dijumpai.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3 bg-muted rounded-lg p-3">
                   <span className="text-xl">🧴</span>
                   <div>
                     <p className="font-semibold">Perlengkapan mandi</p>
-                    <p className="text-muted-foreground">(misal: sabun, sikat gigi, pasta gigi, shampoo, handuk, dan lain-lain) – prioritas orang dewasa yang membutuhkan</p>
+                    <p className="text-muted-foreground">misal: sabun, sikat gigi, pasta gigi, shampoo, handuk, dan lain-lain — prioritas orang dewasa yang membutuhkan.</p>
                   </div>
                 </li>
               </ul>

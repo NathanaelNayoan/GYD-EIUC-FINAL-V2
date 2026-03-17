@@ -1,4 +1,4 @@
-import youthServing from "@/assets/youth-serving.jpg";
+import youthServing from "@/assets/foto-program.jpeg";
 import stamps from "@/assets/stamps.png";
 import { BookOpen, Heart, Users, Globe } from "lucide-react";
 

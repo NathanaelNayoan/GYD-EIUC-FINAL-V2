@@ -3,7 +3,6 @@ import AboutSection from "@/components/AboutSection";
 import ConferenceSection from "@/components/ConferenceSection";
 import ThemeSection from "@/components/ThemeSection";
 import InfoCardsSection from "@/components/InfoCardsSection";
-import SurveySection from "@/components/SurveySection";
 import EventSection from "@/components/EventSection";
 import FooterSection from "@/components/FooterSection";
 
@@ -15,7 +14,6 @@ const Index = () => {
       <ConferenceSection />
       <ThemeSection />
       <InfoCardsSection />
-      <SurveySection />
       <EventSection />
       <FooterSection />
     </main>
