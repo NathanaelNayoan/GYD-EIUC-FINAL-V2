@@ -1,5 +1,6 @@
 import { MapPin, Calendar, Clock, Users } from "lucide-react";
-import merch from "@/assets/merch.png";
+import merch1 from "@/assets/merch 1.jpeg";
+import merch2 from "@/assets/merch 2.jpeg";
 
 const details = [
   { icon: Calendar, label: "Hari/Tanggal", value: "Minggu, 29 Maret 2026" },
@@ -21,9 +22,9 @@ const EventSection = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto items-center">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 lg:gap-8 max-w-7xl mx-auto items-stretch">
           {/* Event card */}
-          <div className="bg-background rounded-2xl shadow-xl p-8 sm:p-10 border border-border">
+          <div className="bg-background rounded-2xl shadow-xl p-8 sm:p-10 border border-border flex flex-col justify-center">
             <div className="space-y-6">
               {details.map((item) => (
                 <div key={item.label} className="flex items-start gap-4">
@@ -53,16 +54,22 @@ const EventSection = () => {
             </div>
           </div>
 
-          {/* Merch preview */}
-          <div className="text-center">
+          {/* Merch preview 1 */}
+          <div className="bg-background rounded-2xl shadow-xl overflow-hidden border border-border flex flex-col group">
             <img
-              src={merch}
-              alt="GYD 2026 merchandise"
-              className="rounded-2xl shadow-lg mx-auto max-w-sm w-full"
+              src={merch1}
+              alt="GYD 2026 merchandise 1"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
-            <p className="text-sm text-muted-foreground mt-4 font-condensed">
-              Merchandise resmi GYD 2026 — Communion in Action
-            </p>
+          </div>
+
+          {/* Merch preview 2 */}
+          <div className="bg-background rounded-2xl shadow-xl overflow-hidden border border-border flex flex-col group">
+            <img
+              src={merch2}
+              alt="GYD 2026 merchandise 2"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
           </div>
         </div>
       </div>
